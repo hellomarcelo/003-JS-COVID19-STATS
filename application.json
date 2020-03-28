@@ -1,0 +1,56 @@
+{
+    "get": "statistics",
+    "parameters": [],
+    "errors": [],
+    "results": 194,
+    "response": [
+      {
+        "country": "China",
+        "cases": {
+          "new": "+46",
+          "active": 5353,
+          "critical": 1845,
+          "recovered": 72440,
+          "total": 81054
+        },
+        "deaths": {
+          "new": "+6",
+          "total": 3261
+        },
+        "day": "2020-03-22",
+        "time": "2020-03-22T22:45:05+00:00"
+      },
+      {
+        "country": "Italy",
+        "cases": {
+          "new": "+5560",
+          "active": 46638,
+          "critical": 3000,
+          "recovered": 7024,
+          "total": 59138
+        },
+        "deaths": {
+          "new": "+651",
+          "total": 5476
+        },
+        "day": "2020-03-22",
+        "time": "2020-03-22T22:45:05+00:00"
+      },
+      {
+        "country": "Spain",
+        "cases": {
+          "new": "+3107",
+          "active": 24722,
+          "critical": 1785,
+          "recovered": 2125,
+          "total": 28603
+        },
+        "deaths": {
+          "new": "+375",
+          "total": 1756
+        },
+        "day": "2020-03-22",
+        "time": "2020-03-22T22:45:05+00:00"
+      }
+    ]
+  }

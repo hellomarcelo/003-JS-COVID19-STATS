@@ -1,0 +1,91 @@
+
+body{
+    background-color: crimson;
+    font-family:"Druk Wide Bold" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+h1 {font-size: 4.209em;}
+h2 {font-size: 1.777em;}
+h6 {font-size: 3.157em;}
+p {font-size: 1.777em;}
+
+h6, p {color: white;   }
+
+#top {
+    margin-top: 50px;
+}
+#bot{
+    margin-top: 50px;
+}
+
+
+
+@media (min-width: 1281px) {
+  
+   
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    h1 {font-size: 1.777em;}
+    p {font-size: 1.333em;}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    h1 {font-size: 28px;}
+    p {font-size: 1.333em;}
+  
+}
